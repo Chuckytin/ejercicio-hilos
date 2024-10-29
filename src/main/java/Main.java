@@ -37,7 +37,7 @@ public class Main {
 
                 for (char i = 'A'; i <= 'Z'; i++) {
 
-                    Thread.sleep(500); //5 segundos
+                    Thread.sleep(500); 
 
                     System.out.print(i);
 
@@ -67,7 +67,7 @@ public class Main {
 
                 while (!encontrado.get()) {
 
-                    Thread.sleep(600); //6 segundos
+                    Thread.sleep(600); 
                     System.out.println(numeroAtomico.getAndDecrement());
 
                 }
